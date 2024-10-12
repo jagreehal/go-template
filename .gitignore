@@ -1,0 +1,43 @@
+# Binaries for programs and plugins
+*.exe
+*.dll
+*.so
+*.dylib
+*.test
+
+# Output of the go tool
+*.out
+
+# Temporary files from Go toolchain
+*.log
+*.tmp
+
+# Directories for dependencies
+vendor/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Go module files
+go.sum
+
+# Generated mock files (if you're using mockery)
+*mocks/
+
+# Coverage files
+coverage.out
+*.coverprofile
+
+# Build directories
+bin/
+build/
+
+# Local environment files
+.env
+.env.*
+
+# Linting and formatting tool caches
+golangci-lint.cache
